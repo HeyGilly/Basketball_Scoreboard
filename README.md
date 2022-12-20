@@ -9,9 +9,7 @@
 </h1>
 
 <h4 align="center">
-The basketball scoreboard will display the current score in the game.
-The user will be able to add 1, 2, or 3 points to the respective teams.  
-The user will be able to clear scoreboard at the end of the game.
+This application is a basketball scoreboard made with Vanilla JS, and CSS. The Scoreboard will display the score of the two teams and will allow the user to add points by 1,2 or 3. Once the game is over the user will be able to clear scoreboard and get ready for the next game. Go Team!
 </h4>
 
 
@@ -35,9 +33,9 @@ The languages used to create this application:
 * [X] Have a vision of what the finish product will look like
 * [X] Find the image for the background
 * [ ] Work on HTML
-    * navigation bar
-    * content
-    * background
+    * [ ] navigation bar
+    * [ ] content
+    * [ ] background
 
 
 
