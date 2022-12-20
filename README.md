@@ -16,7 +16,7 @@ The user will be able to clear scoreboard at the end of the game.
 
 
 <div align="center">
-<img src="" alt="View of basketball scoreboard">
+<img src="https://fakeimg.pl/450x200/?text=helloworld" alt="View of basketball scoreboard">
 </div>
 
 ## Live View
