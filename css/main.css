@@ -1,1 +1,138 @@
-*{padding: 0;margin: 0;box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Titan+One&family=Unbounded:wght@200&display=swap');
+*{padding: 0;margin: 0;box-sizing: border-box}
+/*Body*/
+body{
+    background-color: aliceblue;
+    background-image: url("/img/bballCourt.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: 3000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Titan One', cursive;
+}
+
+/*Navigation*/
+nav{
+    background-color: azure;
+    padding: 1em 0;
+    text-align: center;
+    font-family: 'Unbounded', cursive;
+}
+#navHeader{
+    text-decoration: none;
+    color: black;
+}
+
+/*Main*/
+main{
+    height: 90vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-top: 5em;
+    margin: 0 10px;
+}
+
+/*Scoreboard*/
+#scoreBoard{
+    background-color: darkblue;
+    width: 500px;
+    height: auto;
+    border: 12px solid azure;
+    border-radius: 24px;
+}
+
+/*left and right container*/
+#containerLeftRight{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*left Side Scoreboard*/
+#leftScoreboard, #rightScoreboard{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+/*Number Points*/
+#leftNum, #rightNum{
+    font-size: 90px;
+    text-align: center;
+    color: indianred;
+    font-family: 'Black Ops One', cursive;
+    background-color: black;
+    margin-top: .2em;
+}
+
+/*Left Button Container*/
+#leftButtonContainer, #rightButtonContainer{
+    width: 100%;
+    padding-top: .5em;
+}
+
+/*Buttons*/
+.oneButton, .twoButton, .threeButton{
+    padding: .5em .9em;
+    margin-bottom: 1em;
+    justify-content: space-evenly;
+    background-color: darkblue;
+    border-radius: 5px;
+    color: azure;
+    font-weight: bolder;
+    border: 2px solid azure;
+    transition: transform 1.2s;
+}
+
+/*Buttons Hover*/
+.oneButton:hover, .twoButton:hover, .threeButton:hover{
+    background-color: azure;
+    transform: scale(1.08);
+    color: darkblue;
+}
+
+/*Sub Button Container*/
+#SubButtonContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/*Sub Button*/
+#subButton{
+    color: azure;
+    font-weight: bolder;
+    border: 2px solid azure;
+    background-color: darkblue;
+    padding: .5em .9em;
+    margin-bottom: 1em;
+    transition: transform 1s;
+}
+
+/*Sub Button Hover*/
+#subButton:hover{
+   background-color: yellow;
+    color: darkblue;
+    border: darkblue;
+    transform: scale(1.2);
+}
+
+
+@media screen and (min-width: 600px) {
+
+    #scoreBoard{
+        width: 600px;
+        justify-content: space-around;
+    }
+
+    #leftNum, #rightNum{
+        font-size: 160px;
+    }
+
+    .oneButton, .twoButton, .threeButton{
+        padding: .5em 2em;
+    }
+
+}
