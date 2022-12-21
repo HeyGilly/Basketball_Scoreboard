@@ -26,6 +26,7 @@ The languages used to create this application:
 - HTML
 - CSS
 - Vanilla Javascript
+- Google Fonts
 
 ## Pathway
 
@@ -33,9 +34,11 @@ The languages used to create this application:
 * [X] Have a vision of what the finish product will look like
 * [X] Find the image for the background
 * [ ] Work on HTML
-    * [ ] navigation bar
-    * [ ] content
-    * [ ] background
+    * [X] background
+    * [X] Google Fonts
+    * [X] navigation bar
+    * [X] Scoreboard
+* [X] Style with CSS
 
 
 
