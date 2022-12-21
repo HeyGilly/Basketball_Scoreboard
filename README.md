@@ -14,7 +14,7 @@ This application is a basketball scoreboard made with Vanilla JS, and CSS. The S
 
 
 <div align="center">
-<img src="https://fakeimg.pl/450x200/?text=helloworld" alt="View of basketball scoreboard">
+<img src="img/scoreboard.gif" alt="View of basketball scoreboard">
 </div>
 
 ## Live View
