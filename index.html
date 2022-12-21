@@ -1,54 +1,55 @@
 <!doctype html>
 <html>
 
-  <head>
+<head>
     <meta charset="utf-8">
     <title>Basketball Scoreboard</title>
     <meta name="description" content="This application is a basketball scoreboard made with Vanilla JS, and CSS. The Scoreboard will display the score of the two teams and will allow the user to add points by 1,2 or 3. Once the game is over the user will be able to clear scoreboard and get ready for the next game. Go Team!">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Personal Stylesheet-->
     <link rel="stylesheet" href="css/main.css">
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <nav>
-        <h4>
-          <a href="https://www.linkedin.com/in/heygilly" id="navHeader" target="_blank">
+<nav>
+    <h4>
+        <a href="https://www.linkedin.com/in/heygilly" id="navHeader" target="_blank">
             HeyGilly
-          </a>
-        </h4>
-    </nav>
+        </a>
+    </h4>
+</nav>
 
-    <main>
-      <div id="scoreBoard">
-          <div id="containerLeftRight">
-              <!--Left side -->
-              <section id="leftScoreboard">
-                  <h2 id="leftNum">0</h2>
-                  <section id="leftButtonContainer">
-                      <button class="oneButton">+1</button>
-                      <button class="twoButton">+2</button>
-                      <button class="threeButton">+3</button>
-                  </section>
-              </section>
-              <!--Right Side -->
-              <section id="rightScoreboard">
-                  <h2 id="rightNum">0</h2>
-                  <section id="rightButtonContainer">
-                      <button class="oneButton">+1</button>
-                      <button class="twoButton">+2</button>
-                      <button class="threeButton">+3</button>
-                  </section>
-              </section>
-          </div>
-          <div id="SubButtonContainer">
-              <button id="subButton">Sub</button>
-          </div>
-      </div>
-    </main>
+<main>
+    <div id="scoreBoard">
+        <div id="containerLeftRight">
+            <!--Left side -->
+            <section id="leftScoreboard">
+                <h2 id="leftNum">0</h2>
+                <section id="leftButtonContainer">
+                    <button class="oneButton" onclick="oneLeftPoint()">+1</button>
+                    <button class="twoButton" onclick="twoLeftPoint()">+2</button>
+                    <button class="threeButton" onclick="threeLeftPoint()">+3</button>
+                </section>
+            </section>
+            <!--Right Side -->
+            <section id="rightScoreboard">
+                <h2 id="rightNum">0</h2>
+                <section id="rightButtonContainer">
+                    <button class="oneButton" onclick="oneRightPoint()">+1</button>
+                    <button class="twoButton" onclick="twoRightPoint()">+2</button>
+                    <button class="threeButton" onclick="threeRightPoint()">+3</button>
+                </section>
+            </section>
+        </div>
+        <div id="SubButtonContainer">
+            <button id="newGameButton" onclick="newGame()">New Game</button>
+            <button id="subButton">Sub</button>
+        </div>
+    </div>
+</main>
 
-  </body>
-  <!--Personal javascript-->
-  <script src="js/main.js"></script>
+</body>
+<!--Personal javascript-->
+<script src="js/main.js"></script>
 </html>
