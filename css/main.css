@@ -59,7 +59,7 @@ main{
 
 /*Number Points*/
 #leftNum, #rightNum{
-    font-size: 90px;
+    font-size: 72px;
     text-align: center;
     color: indianred;
     font-family: 'Black Ops One', cursive;
@@ -76,7 +76,7 @@ main{
 /*Buttons*/
 .oneButton, .twoButton, .threeButton{
     padding: .5em .9em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     justify-content: space-evenly;
     background-color: darkblue;
     border-radius: 5px;
@@ -95,32 +95,52 @@ main{
 
 /*Sub Button Container*/
 #SubButtonContainer{
-    width: 100%;
+    width: 75%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
+
 }
 
 /*Sub Button*/
 #subButton{
-    color: azure;
+    color: darkblue;
     font-weight: bolder;
     border: 2px solid azure;
-    background-color: darkblue;
+    background-color: yellow;
     padding: .5em .9em;
     margin-bottom: 1em;
     transition: transform 1s;
+    border-radius: 6px;
 }
 
 /*Sub Button Hover*/
 #subButton:hover{
-   background-color: yellow;
+    background-color: yellow;
     color: darkblue;
     border: darkblue;
     transform: scale(1.2);
 }
 
+/*New Game Button*/
+#newGameButton{
+    color: azure;
+    font-weight: bolder;
+    border: 2px solid azure;
+    background-color: darkred;
+    padding: .5em .9em;
+    margin-bottom: 1em;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+
 
 @media screen and (min-width: 600px) {
+
+    /*Sub Button Container*/
+    #SubButtonContainer{
+        width: 50%;
+    }
 
     #scoreBoard{
         width: 600px;
@@ -128,7 +148,7 @@ main{
     }
 
     #leftNum, #rightNum{
-        font-size: 160px;
+        font-size: 80px;
     }
 
     .oneButton, .twoButton, .threeButton{
