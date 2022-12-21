@@ -75,7 +75,7 @@ main{
 
 /*Buttons*/
 .oneButton, .twoButton, .threeButton{
-    padding: .5em .9em;
+    padding: .5em .5em;
     margin-bottom: 2em;
     justify-content: space-evenly;
     background-color: darkblue;
