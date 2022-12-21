@@ -18,7 +18,7 @@ This application is a basketball scoreboard made with Vanilla JS, and CSS. The S
 </div>
 
 ## Live View
-- <a href="https://basketball-scoreboard-gilly.netlify.app/"> Click Here</a>
+- <a href="https://basketball-scoreboard-gilly.netlify.app/" target="_blank"> Click Here</a>
 
 ## Languages
 
